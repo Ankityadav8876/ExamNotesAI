@@ -20,7 +20,7 @@ app.post("/api/credits/webhook",
 
 //connected frontend and backend with CORS
 app.use(cors(
-  {origin: "http://localhost:5173",
+  {origin: "https://examnotesaiclientside.onrender.com",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE","OPTIONS"],
   }
