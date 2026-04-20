@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import logo from "../assets/logos.png";
 import {useDispatch, useSelector } from "react-redux";
 import axios from "axios";
-import {serverUrl } from "../app"
+import {serverUrl } from "../App"
 import { setUserData } from "../redux/userSlice";
 import { useNavigate } from "react-router-dom";
 
